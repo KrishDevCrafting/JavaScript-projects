@@ -5,7 +5,7 @@ function callme() {
     alert("Plz Enter The Text!");
     console.log("first-condition!");
   } else {
-    let li = document.createElement("p");
+    let li = document.createElement("h1");
     li.innerHTML = inputBox.value;
     listValue.appendChild(li);
   }
