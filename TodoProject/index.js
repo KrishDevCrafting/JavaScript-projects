@@ -16,3 +16,7 @@ function callme() {
     listValue.appendChild(li);
   }
 }
+
+function deleteValue() {
+  listValue.parentElement.removeChild(li);
+}
