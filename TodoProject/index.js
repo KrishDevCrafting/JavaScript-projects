@@ -18,5 +18,5 @@ function callme() {
 }
 
 function deleteValue() {
-  listValue.parentElement.removeChild(li);
+  listValue.remove();
 }
