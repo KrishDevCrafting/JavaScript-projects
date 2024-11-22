@@ -15,8 +15,11 @@ function callme() {
 
     listValue.appendChild(li);
   }
-}
-
-function deleteValue() {
-  listValue.remove();
+  const deleteButton = document.createElement("button");
+  deleteButton.textContent = "Delete";
+  deleteButton.style.marginLeft = "10px";
+  deleteButton.addEventListener("click", () => {
+    listValue.appendChild(deleteButton);
+    
+  });
 }
