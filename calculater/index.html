@@ -2,44 +2,61 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>calculater</title>
-
 
     <style>
         #parent-container {
-
-            border: 1px solid red;
-            width: 50%;
-            height: 50px;
-        }
-        .center{
+            margin-top: 20px;
             display: flex;
             justify-content: center;
+            border: 1px solid red;
+            width: 40%;
+            height: 400px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        .child-container {
+            border: 1px solid blue;
+            margin-top: 20px;
         }
     </style>
 </head>
 
 <body>
-
-
-
-
-
-
-
     <section class="center">
         <div id="parent-container">
 
+            <div class="child-container">
+
+                <input type="text" id="" placeholder="Enter the Value" />
+                <div style="margin: 20px">
+                    <div>
+                        <button>1</button><button>2</button><button>3</button>
+                        <button>÷</button>
+                        <button>√</button>
+                    </div>
 
 
+                    <div><button>4</button><button>5</button><button>6</button>
+                        <button>×</button>
+                        <button>×²</button>
+
+                    </div>
+                    <div><button>7</button><button>8</button><button>9</button>
+                        <button>-</button>
+                        <button>=</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
-
-
-
 </body>
 <script src="./index.js"></script>
 
