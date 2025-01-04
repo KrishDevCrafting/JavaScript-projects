@@ -34,13 +34,15 @@
 
             <div class="child-container">
 
-                <input type="text" id="" placeholder="Enter the Value" name="display" />
+                <input type="text" id="display" name="display" />
                 <div style="margin: 20px">
                     <div>
-                        <input type="button" value="1"></input><input type="button" value="2"></input><input
-                            type="button" value="3"></input>
-                        <input type="button" value="÷"></input>
-                        <input type="button" value="√"></input>
+                        <input type="button" value="1"
+                            onclick="document.getElementById('display').value += '1' "></input><input type="button"
+                            value="2" onclick="document.getElementById('display').value += '2' "></input><input
+                            type="button" value="3" onclick="document.getElementById('display').value += '3' "></input>
+                        <input type="button" value="÷" onclick="document.getElementById('display').value +='÷'"></input>
+                        <input type="button" value="√" onclick="document.getElementById('display').value +='√'"></input>
                     </div>
 
 
