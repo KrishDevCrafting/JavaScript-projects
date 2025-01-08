@@ -33,3 +33,4 @@ function calculateSquare() {
     display.value = "Error";
   }
 }
+// Frontman 🤌🏻
