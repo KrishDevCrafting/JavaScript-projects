@@ -48,7 +48,10 @@
                 <input type="text" id="display" name="display" />
                 <div style="margin: 20px">
                     <div>
-                       <input type="button" value="C" onclick="clearDisplay()"><input type="button" value="("><input type="button" value=")"><input type="button" value="mod"><input type="button" value="Pi">
+                        <input type="button" value="C" onclick="clearDisplay()"><input type="button" value="("
+                            onclick="document.getElementById('display').value += '(' "><input type="button"
+                            onclick="document.getElementById('display').value += ')' " value=")"><input type="button"
+                            value="mod"><input type="button" value="Pi">
                     </div>
 
                     <div>
@@ -92,3 +95,4 @@
 <script src="./index.js"></script>
 
 </html>
+<!-- kuch bhi nahi kiya mene aj  -->
